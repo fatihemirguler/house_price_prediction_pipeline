@@ -1,0 +1,207 @@
+Less than 1% missing after removing outliers:
+OverallQual
+ExterQual
+BsmtQual
+KitchenQual
+MSZoning_C (all)
+MSZoning_FV
+MSZoning_RH
+Street_Grvl
+Street_Pave
+LotShape_IR2
+LotShape_IR3
+LandContour_Bnk
+LandContour_HLS
+LandContour_Low
+Utilities_AllPub
+Utilities_NoSeWa
+LotConfig_FR3
+LandSlope_Gtl
+LandSlope_Mod
+LandSlope_Sev
+Neighborhood_Blmngtn
+Neighborhood_Blueste
+Neighborhood_BrDale
+Neighborhood_ClearCr
+Neighborhood_IDOTRR
+Neighborhood_MeadowV
+Neighborhood_Mitchel
+Neighborhood_NPkVill
+Neighborhood_NoRidge
+Neighborhood_StoneBr
+Neighborhood_Timber
+Neighborhood_Veenker
+Condition1_PosA
+Condition1_PosN
+Condition1_RRAe
+Condition1_RRAn
+Condition1_RRNe
+Condition1_RRNn
+Condition2_Artery
+Condition2_Feedr
+Condition2_Norm
+Condition2_PosA
+Condition2_PosN
+Condition2_RRAe
+Condition2_RRAn
+Condition2_RRNn
+BldgType_2fmCon
+HouseStyle_1.5Unf
+HouseStyle_2.5Fin
+HouseStyle_2.5Unf
+RoofStyle_Flat
+RoofStyle_Gambrel
+RoofStyle_Mansard
+RoofStyle_Shed
+RoofMatl_ClyTile
+RoofMatl_CompShg
+RoofMatl_Membran
+RoofMatl_Metal
+RoofMatl_Roll
+RoofMatl_Tar&Grv
+RoofMatl_WdShake
+RoofMatl_WdShngl
+Exterior1st_AsphShn
+Exterior1st_BrkComm
+Exterior1st_CBlock
+Exterior1st_ImStucc
+Exterior1st_Stone
+Exterior2nd_AsbShng
+Exterior2nd_AsphShn
+Exterior2nd_Brk Cmn
+Exterior2nd_CBlock
+Exterior2nd_ImStucc
+Exterior2nd_Other
+Exterior2nd_Stone
+MasVnrType_BrkCmn
+Foundation_Stone
+Foundation_Wood
+Heating_Floor
+Heating_GasA
+Heating_GasW
+Heating_Grav
+Heating_OthW
+Heating_Wall
+BsmtFullBath
+GarageYrBlt
+GarageCars
+2ndFlrSF
+Fireplaces
+YearBuilt
+BsmtFinSF1
+
+1% to 5% missing:
+OverallCond
+BsmtCond
+GarageQual
+MSZoning_RL
+Alley_Grvl
+Alley_Pave
+LotShape_IR1
+LandContour_Lvl
+LotConfig_CulDSac
+Neighborhood_BrkSide
+Neighborhood_CollgCr
+Neighborhood_Crawfor
+Neighborhood_Gilbert
+Neighborhood_NWAmes
+Neighborhood_NridgHt
+Neighborhood_Somerst
+Neighborhood_Sawyer
+Neighborhood_SawyerW
+Condition1_Feedr
+Condition1_Norm
+BldgType_1Fam
+BldgType_Duplex
+BldgType_Twnhs
+HouseStyle_1Story
+HouseStyle_1.5Fin
+RoofStyle_Gable
+Exterior1st_BrkFace
+Exterior1st_HdBoard
+Exterior1st_MetalSd
+Exterior1st_VinylSd
+Exterior1st_Wd Sdng
+Exterior2nd_BrkFace
+Exterior2nd_MetalSd
+Exterior2nd_VinylSd
+Exterior2nd_Wd Sdng
+MasVnrType_None
+Foundation_CBlock
+Foundation_PConc
+Foundation_Slab
+HeatingQC_Ex
+BsmtHalfBath
+GarageArea
+EnclosedPorch
+TotRmsAbvGrd
+YearRemodAdd
+BsmtUnfSF
+(Note: less than %5 imputed with mean)
+
+5% to 15% missing:
+MSZoning_RM 	(r=-0.288)
+LotShape_Reg 	(r=-0.267)
+LotConfig_Corner 
+LotConfig_FR2
+Neighborhood_Edwards -0.179949
+Neighborhood_OldTown -0.179949
+Neighborhood_SWISU
+Condition1_Artery
+Condition1_RRoe
+BldgType_TwnhsE
+HouseStyle_2Story 0.242880
+HouseStyle_SFoyer
+HouseStyle_SLvl
+RoofStyle_Hip 	0.235897
+Exterior1st_CemntBd
+Exterior1st_Plywood
+Exterior1st_Stucco
+Exterior1st_WdShing
+Exterior2nd_CmentBd
+Exterior2nd_HdBoard
+Exterior2nd_Plywood
+Exterior2nd_Stucco
+MasVnrType_BrkFace
+MasVnrType_Stone	0.330476
+Foundation_BrkTil	-0.204117
+BsmtFinType1
+BsmtFinSF2
+LowQualFinSF
+WoodDeckSF	0.324413
+3SsnPorch
+MoSold
+PoolArea
+BsmtFinType2
+
+Over 15% missing:
+LotConfig_Inside 
+Neighborhood_Brkside
+HeatingQC_TA (r=-0.4 for general feature)
+OpenPorchSF (r=0.31)
+ScreenPorch
+YrSold
+PoolQC_Fa
+PoolQC_Gd
+Fence_GdPrv
+Fence_GdWo
+Fence_MnPrv
+Fence_MnWw
+MiscFeature_Gar2
+MiscFeature_Othr
+MiscFeature_Shed
+MiscFeature_TenC
+SaleType_COD
+SaleType_CWD
+SaleType_Con
+SaleType_ConLD
+SaleType_ConLI
+SaleType_ConLw
+SaleType_Oth
+SaleType_WD (r=-0.24)
+SaleCondition_Abnorml
+SaleCondition_AdjLand
+SaleCondition_Alloca
+SaleCondition_Family
+SaleCondition_Normal (r=-0.15)
+SaleCondition_Partial (r=0.35)
